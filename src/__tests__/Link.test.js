@@ -23,7 +23,7 @@ describe('Link Component', () => {
 
     it('should render a tag node correctly', () => {
         const wrapper = shallow(<Link address='www.google.com' />);
-        console.log(wrapper.debug())
+        console.log(wrapper.debug());
 
         expect(wrapper.props().href).toBe('www.google.com')
     })
